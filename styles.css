@@ -1,0 +1,229 @@
+@charset "utf-8";
+body {
+    background-color: #595959;
+    font-family: Manrope, regular;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+    color: #CECEC0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+main {
+    padding: 20px;
+}
+section {
+    background-color: #333333;
+    padding: 20px 40px; /* Отступы внутри*/
+    border-radius: 5px;
+    min-height: 110px;
+    margin-bottom: 20px; /* Отступ между section */
+    overflow: hidden;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #CECEC0;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: #ffcc00;
+}
+
+div {
+    clear: both;
+    margin-bottom: 500px;
+}
+
+img {
+    float: left;
+    margin-right: 50px;
+    width: 300px; /* Ширина */
+    height: 400px; 
+}
+
+div p {
+    margin-left: 220px; 
+}
+
+
+footer {
+    clear: both;
+	color: #CECEC0;
+}
+
+/* Стили для контейнеров с фильмами */
+.movie-container {
+    display: flex;
+    margin-bottom: 20px; 
+}
+
+/* Стили для изображений */
+.movie-container img {
+    margin-right: 20px; 
+    width: 300px; 
+    height: 400px; 
+}
+
+/* Стили для текстового содержания фильмов */
+.movie-content {
+    display: flex; 
+    flex-direction: column; 
+    flex: 1; 
+    color: #CECEC0;
+}
+
+/* Стили для текстового содержания фильмов */
+.movie-content p {
+    margin-top: 5; 
+    margin-left: 0; 
+}
+
+/* Стили для заголовков и текстовых описаний */
+.movie-content h2 {
+    margin: 0; 
+}
+
+
+/* Стили для контейнера с режиссером и наградами */
+.movie-details {
+    background-color: #2B2B2B; 
+    padding: 5px; 
+    border-radius: 5px; 
+    margin-top: 10px;
+}
+.photo-gallery img {
+    width: 600px;
+    height: 350px;
+    margin-top: 34px;
+    margin-right: 34px;
+    margin-left: 34px;
+    margin-bottom: 34px;
+}
+/* Стили для галереи актеров */
+.actors-gallery {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+/* Стили для фотографий актеров */
+.actors-gallery img {
+    width: 450px;
+    height: 600px;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+/* Стили для ссылок на актеров */
+.actors-gallery a {
+    text-decoration: none; 
+    color: #333; 
+}
+
+/* Стили для подписей актеров */
+.actors-gallery p {
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
+    margin-left: 120px;
+    font-size: 1vw;
+}
+/* Стили для фотографии режиссера */
+.director-info img {
+    width: 400px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    color: #CECEC0;
+}
+
+/* Стили для информации о режиссере */
+.director-details {
+    overflow: hidden;
+    font-size: 1vw;
+	float: left;
+}
+
+/* Стили для имени и биографической информации о режиссере */
+.director-details p {
+    margin: 0; 
+    color: #CECEC0;
+}
+/* Стили для секции со списком фильмов */
+.movie-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center; 
+    list-style: none;
+    padding: 0;
+}
+
+/* Стили для отдельного элемента с фильмом */
+.movie-container2 a {
+    text-decoration: none; 
+    text-align: center; 
+    margin: 10px; 
+    flex: 1; 
+}
+
+/* Стили для изображения фильма */
+.movie-container2 img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+/* Стили для заголовка фильма */
+.movie-container p {
+    margin-top: 10px; 
+}
+
+
+
+main section h2 {
+    color: #CECEC0;
+    font-size: 2vw;
+}
+.director-details p strong {
+}
+.actors-gallery a p {
+    color: #CECEC0;
+    clear: left;
+    text-align: left;
+}
+#movie1 {
+	 color: #3333;
+}
